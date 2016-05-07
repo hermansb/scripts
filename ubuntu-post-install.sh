@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install keepass2
 sudo apt-get install mono-complete # for installing .net apps like KeePass
 sudo apt-get install xdotool # for global auto type for KeePass
-sudo apt-get vim # better text editor vs vi
+sudo apt-get install vim # better text editor vs vi
 
 # Install Chrome
 sudo apt-get install libxss1 libappindicator1 libindicator7
@@ -35,7 +35,7 @@ sudo apt-get install keepass2-plugin-keeagent
 
 # Downloads and installs xclip useful for copying contents of files.
 sudo apt-get install xclip
-xclip -sel clip < ~/ssh/id_rsa.pub # Copy contents of id_rsa.pub file to clipboard. You can now paste to GitHub, VMs etc.
+xclip -sel clip < ~/.ssh/id_rsa.pub # Copy contents of id_rsa.pub file to clipboard. You can now paste to GitHub, VMs etc.
 
 
 echo "Go to http://lechnology.com/software/keeagent/installation/#disable-ssh-component-of-gnome-keyring to disable gnome keyring"

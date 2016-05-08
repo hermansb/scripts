@@ -9,6 +9,9 @@ sudo apt-get install mono-complete # for installing .net apps like KeePass
 sudo apt-get install xdotool # for global auto type for KeePass
 sudo apt-get install vim # better text editor vs vi
 
+# Gimp for image editing / scanning
+sudo apt-get install gimp
+
 # Install Chrome
 sudo apt-get install libxss1 libappindicator1 libindicator7
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -39,3 +42,5 @@ xclip -sel clip < ~/.ssh/id_rsa.pub # Copy contents of id_rsa.pub file to clipbo
 
 
 echo "Go to http://lechnology.com/software/keeagent/installation/#disable-ssh-component-of-gnome-keyring to disable gnome keyring"
+
+echo "For installing printer drivers see http://support.brother.com/g/b/producttop.aspx?c=ca&lang=en&prod=dcp7065dn_all"

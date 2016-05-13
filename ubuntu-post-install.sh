@@ -20,6 +20,7 @@ rm google-chrome*.deb
 
 # Node
 sudo apt-get install nodejs
+sudo ln -s `which nodejs` /usr/bin/node # create symlink to node. 
 
 # Git
 sudo apt-get install git

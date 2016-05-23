@@ -41,6 +41,9 @@ sudo apt-get install keepass2-plugin-keeagent
 sudo apt-get install xclip
 xclip -sel clip < ~/.ssh/id_rsa.pub # Copy contents of id_rsa.pub file to clipboard. You can now paste to GitHub, VMs etc.
 
+# Calibre ebook management
+sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
+
 
 echo "Go to http://lechnology.com/software/keeagent/installation/#disable-ssh-component-of-gnome-keyring to disable gnome keyring"
 
